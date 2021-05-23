@@ -34,3 +34,20 @@ apache2 restart
 [ubuntu16.04 の Apache2 設定/cgi 設定](https://qiita.com/kummn/items/f6bd0f3e643595ed077a)
 
 ### mysql setting
+install  
+
+    $ mkdir ~/src
+    $ cd ~/src
+    $ wget http://dev.mysql.com/get/mysql-apt-config_0.8.17-1_all.deb
+    $ dpkg -i mysql-apt-config_0.8.17-1_all.deb
+    # 対話 1 → 1 → 4 （MySQLバージョンなど設定）
+    $ apt-get update
+    $ apt-get -y install mysql-server
+    # 対話パスワード設定 <PASSWORD>/<PASSWORD> （設定）
+    $ service mysql start
+
+mysql login
+
+    $ mysql -u<ACCOUNT> -p<PASSWORD>
+    
+    
