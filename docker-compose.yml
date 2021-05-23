@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    build: .
+    volumes:
+      - ./www:/var/www
+    ports:
+      - 8000:80
+    tty: true
