@@ -30,7 +30,7 @@ apache2 restart
 
     $ service apache2 reload
 
-[Apache2@Debian でのバーチャルホスト設定まとめ](https://qiita.com/ninneko/items/87a76f0f1dc6d82500fb)
+[Apache2@Debian でのバーチャルホスト設定まとめ](https://qiita.com/ninneko/items/87a76f0f1dc6d82500fb)  
 [ubuntu16.04 の Apache2 設定/cgi 設定](https://qiita.com/kummn/items/f6bd0f3e643595ed077a)
 
 ### mysql setting
